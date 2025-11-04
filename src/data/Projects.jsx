@@ -1,19 +1,49 @@
-import project1 from "../assets/images/project.jpg";
 import clockDisplay from "../assets/images/clock-display.jpg";
+import portfolioFigma from "../assets/images/portfolio-figma.jpg";
+import domainPro from "../assets/images/domain-pro-screen.jpg";
 
 const Projects = [
   {
-    image: project1,
-    title: "WowTaxi",
+    image: domainPro,
+    title: "Domain Pro",
     description:
-      "UX design of the WowTaxi company's website, iOS and Android apps by creating easy-to-use and plain user experience for the customers.",
-    link: "",
+      "Domain Pro is a website that allows users to register and manage their domain names. It features integrated login with Google, payment via Momo, and email notifications.",
+    link: [
+      {
+        name: "Visit website",
+        href: "https://domainpro.thanhtrancoder.com",
+      },
+      {
+        name: "View frontend code",
+        href: "https://github.com/thanhtrancoder/domain-pro-fe-user",
+      },
+      {
+        name: "View backend code",
+        href: "https://github.com/thanhtrancoder/domain-pro-be",
+      },
+    ],
+  },
+  {
+    image: portfolioFigma,
+    title: "Portfolio Figma",
+    description: "Portfolio figma design.",
+    link: [
+      {
+        name: "Open figma",
+        href: "https://www.figma.com/design/BmtqxD2Ha1YelbHmjFevt3/Portfolio?node-id=0-1&m=dev&t=iGNPfoeMjttV2Lbb-1",
+      },
+    ],
   },
   {
     image: clockDisplay,
-    title: "Clock Display",
+    title: "Clock Display Extension",
     description: "Display clock when opening a new tab.",
-    link: "https://github.com/thanhdt114/clock-display-extension",
+    link: [
+      {
+        name: "View code",
+        href: "https://github.com/thanhtrancoder/clock-display-extension",
+      },
+    ],
   },
 ];
 

@@ -1,6 +1,6 @@
 function Experience(props) {
   return (
-    <div className="flex space-x-4">
+    <div className="flex space-x-4 mb-10">
       {props.isFlip ? (
         <>
           <div className="text-end text-balance">

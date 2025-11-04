@@ -5,6 +5,9 @@ import mongodbIcon from "../assets/icons/icons8-mongodb-48.png";
 import figmaIcon from "../assets/icons/icons8-figma-48.png";
 import reactIcon from "../assets/icons/icons8-react-48.png";
 import tailwindIcon from "../assets/icons/icons8-tailwind-css-48.png";
+import dockerIcon from "../assets/icons/icons8-docker-48.png";
+import nginxIcon from "../assets/icons/icons8-nginx-48.png";
+import githubIcon from "../assets/icons/icons8-github-48.png";
 
 const Skills = [
   {
@@ -55,9 +58,35 @@ const Skills = [
     description:
       "Develop user interfaces and interactive logic using HTML, CSS, JS (e.g. React). Ensure responsive design, smooth UX, cross-browser compatibility, and integrate with RESTful APIs.",
     technologies: [
-      { icon: reactIcon, name: "ReactJS" },
+      { icon: reactIcon, name: "React" },
       { icon: tailwindIcon, name: "Tailwind CSS" },
       { icon: figmaIcon, name: "Figma" },
+    ],
+  },
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        className="size-10 stroke-secondary"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"
+        />
+      </svg>
+    ),
+    title: "Tooling & Operations",
+    description:
+      "Develop and maintain deployment pipelines, containerisation and server-management tools. Collaborate with backend and frontend teams to enable seamless integration with platform operations.",
+    technologies: [
+      { icon: dockerIcon, name: "Docker" },
+      { icon: githubIcon, name: "Github" },
+      { icon: nginxIcon, name: "Nginx" },
     ],
   },
 ];
