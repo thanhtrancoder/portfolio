@@ -9,6 +9,7 @@ import Achievement from "../components/Achievement";
 import Achievements from "../data/Achievements";
 import Links from "../data/Links";
 import { useState, Fragment } from "react";
+import thanhtrancoderImage from "../assets/images/thanhtrancoder_251007_square.jpg";
 
 function Home(props) {
   const [name, setName] = useState("");
@@ -144,7 +145,7 @@ function Home(props) {
           <div className="flex justify-center mt-8 lg:mt-14">
             <img
               className="aspect-square object-cover h-40 rounded-full lg:h-70"
-              src={avatar}
+              src={thanhtrancoderImage}
               alt="avatar"
             />
           </div>
@@ -305,7 +306,7 @@ function Home(props) {
           <div className="bg-white md:h-full border-2 border-gray-100 shadow-primary py-8 px-6 text-center text-balance rounded-md">
             <h1 className="text-4xl font-medium">Contact me</h1>
             <div className="mt-8 text-xl flex justify-center">
-              <svg
+              {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -320,8 +321,9 @@ function Home(props) {
                 />
               </svg>
               &nbsp;
-              <p className="font-bold">Email:</p>&nbsp;
-              <p>thanhtrancoder@gmail.com</p>
+              <p className="font-bold">Email:</p>
+              &nbsp; */}
+              <p className="break-all">thanhtrancoder@gmail.com</p>
             </div>
             <p className="mt-16 text-xl text-brand-gray">
               If you got any questions, please do not hesitate to send me a

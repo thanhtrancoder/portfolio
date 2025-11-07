@@ -11,7 +11,7 @@ const Projects = [
     link: [
       {
         name: "Visit website",
-        href: "https://domainpro.thanhtrancoder.com",
+        href: "https://domainpro.thanhtrancoder.io.vn",
       },
       {
         name: "View frontend code",
