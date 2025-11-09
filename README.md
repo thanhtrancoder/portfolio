@@ -18,12 +18,12 @@ Personal portfolio website to showcase my skills, projects, experience, and cont
 
 Prerequisites: Node.js 18+ and npm (or yarn/pnpm).
 
-Install dependencies:
+1. Install dependencies:
 ```bash
 npm install
 ```
 
-Start development server:
+2. Start development server:
 ```bash
 npm run dev
 ```
