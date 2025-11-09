@@ -25,12 +25,16 @@ const Projects = [
   },
   {
     image: portfolioFigma,
-    title: "Portfolio Figma",
+    title: "Portfolio",
     description: "Portfolio figma design.",
     link: [
       {
         name: "Open figma",
         href: "https://www.figma.com/design/BmtqxD2Ha1YelbHmjFevt3/Portfolio?node-id=0-1&m=dev&t=iGNPfoeMjttV2Lbb-1",
+      },
+      {
+        name: "View code",
+        href: "https://github.com/thanhtrancoder/portfolio.git",
       },
     ],
   },
