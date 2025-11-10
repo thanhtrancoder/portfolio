@@ -136,11 +136,16 @@ function Home(props) {
       <div className="px-5" ref={props?.aboutRef}>
         <div className="mt-18 text-center">
           <h1 className="text-5xl font-bold">Thanh Tran Coder</h1>
-          <p className="text-xl mt-5 lg:px-80 lg:mt-11 text-balance">
-            I’m a full-stack developer with great experience and passion for
-            coding and building plain interfaces. I’m an easy-going person and
-            fit in any team. So, if you have a complicated task, you’ve found
-            the right person. 
+          <p className="text-xl mt-5 lg:px-70 lg:mt-11 text-balance">
+            Hi, I'm Thanh, a Fresher Web Developer driven by a love for creating
+            clean, user-friendly web experiences. I've dedicated my time to
+            building projects that solve real-world problems.
+          </p>
+          <br></br>
+          <p className="text-xl lg:px-70 text-balance">
+            I am now eager to apply my skills in a professional setting, learn
+            from experienced mentors, and contribute to a dynamic team. Explore
+            my projects below, or let's connect!
           </p>
           <div className="flex justify-center mt-8 lg:mt-14">
             <img

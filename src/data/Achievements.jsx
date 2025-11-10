@@ -3,10 +3,11 @@ import achievementIcon from "../assets/icons/achievement-reward-award-svgrepo-co
 const Achievements = [
   {
     icon: achievementIcon,
-    title: "Java",
-    name: "Java.",
-    link: "https://www.hackerrank.com/profile/thanhdt114",
-    description: "Completed the Java badge on the HackerRank website.",
+    title: "Java Fundamentals",
+    name: "Java Fundamentals.",
+    link: "https://codelearn.io/share/53611cca-5a06-45c1-a28a-ea60eef0900d",
+    description:
+      "Completed the Java Fundamentals badge on the CodeLearn website.",
   },
   {
     icon: achievementIcon,

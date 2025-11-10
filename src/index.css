@@ -65,3 +65,7 @@
   margin-bottom: -4rem; /* Bù lại cho chiều cao của thông báo */
 }
 
+.li-bullet-right::after {
+  content: '•'; /* Ký tự chấm tròn */
+  margin-left: 0.5rem; /* Khoảng cách giữa văn bản và chấm */
+}
