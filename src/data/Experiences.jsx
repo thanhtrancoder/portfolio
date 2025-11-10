@@ -24,7 +24,7 @@ const Experiences = [
             Participate in functional design and database development for the
             website.
           </li>
-          <li>Implement API development for the website.</li>
+          <li>Developing APIs using Spring Boot for websites.</li>
         </ul>
         <ul
           className="list-disc mr-4 space-y-2 text-right hidden md:block"
@@ -34,7 +34,7 @@ const Experiences = [
             Participate in functional design and database development for the
             website
           </li>
-          <li>Implement API development for the website</li>
+          <li>Developing APIs using Spring Boot for websites</li>
         </ul>
       </div>
     ),
