@@ -137,9 +137,9 @@ function Home(props) {
         <div className="mt-18 text-center">
           <h1 className="text-5xl font-bold">Thanh Tran Coder</h1>
           <p className="text-xl mt-5 lg:px-70 lg:mt-11 text-balance">
-            Hi, I'm Thanh, a Fresher Web Developer driven by a love for creating
-            clean, user-friendly web experiences. I've dedicated my time to
-            building projects that solve real-world problems.
+            Hi, I'm Thanh, a Web Developer driven by a love for creating clean,
+            user-friendly web experiences. I've dedicated my time to building
+            projects that solve real-world problems.
           </p>
           <br></br>
           <p className="text-xl lg:px-70 text-balance">
