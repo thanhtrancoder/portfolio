@@ -60,7 +60,8 @@ const Experiences = [
             testing
           </li>
           <li>
-            Set up a self-hosted environment on Ubuntu using Nginx and Docker
+            Configured a self-hosted environment on Ubuntu using Nginx and
+            Docker
           </li>
         </ul>
       </div>
